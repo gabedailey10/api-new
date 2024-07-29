@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url:
+      username:
+        password:
+jpa:
+  show-sql: true
+  hibernate:
+    ddl-auto: update
+    dialect: org.hibernate.dialect
+
+server:
+  port: 9090
